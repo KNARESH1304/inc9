@@ -25,9 +25,7 @@ class HalloweenStoryApp extends StatelessWidget {
   }
 }
 
-//
-// --------------------------- INTRO PAGE ---------------------------
-//
+
 class IntroPage extends StatelessWidget {
   const IntroPage({super.key});
 
@@ -83,9 +81,7 @@ class IntroPage extends StatelessWidget {
   }
 }
 
-//
-// --------------------------- STORY PAGE ---------------------------
-//
+
 class HalloweenStoryPage extends StatefulWidget {
   const HalloweenStoryPage({super.key});
 
@@ -242,9 +238,7 @@ class _HalloweenStoryPageState extends State<HalloweenStoryPage>
   }
 }
 
-//
-// --------------------------- ENDING PAGE ---------------------------
-//
+
 class EndingPage extends StatefulWidget {
   const EndingPage({super.key});
 
@@ -328,9 +322,7 @@ class _EndingPageState extends State<EndingPage> {
   }
 }
 
-//
-// --------------------------- MODEL CLASS ---------------------------
-//
+
 class _SpookyItem {
   final String name;
   final bool isTrap;
